@@ -2,6 +2,8 @@
 
 ## Descrição do Projeto
 Este projeto foi desenvolvido para praticar o uso de **ADC (Conversor Analógico-Digital)**, **PWM (Modulação por Largura de Pulso)**, **interrupções** e **comunicação I2C** na placa BitDogLab.Ele combina um **joystick**, dois **botões**, três **LEDs RGB** (vermelho, verde e azul) e um **display OLED SSD1306** para criar uma aplicação interativa.
+Para acessar o vídeo, [clique aqui](https://drive.google.com/file/d/1d6iVOlfkNwVooa-kt6fYGnTUCAPKEZDx/view?usp=sharing)
+
 
 O sistema utiliza:
 - O **joystick** para controlar a posição de um caractere no display OLED e ajustar a intensidade dos LEDs vermelho e azul via PWM.
@@ -63,10 +65,7 @@ Para executar este projeto localmente, siga as instruções abaixo:
 ### 4. **Compile o código:**
    - Compile o código diretamente no VS Code.
 
-### 5. **Simulação no Wokwi:**
-   - Para simular o projeto, abra o arquivo `diagram.json` disponível nos arquivos do projeto e execute-o no [Wokwi](https://wokwi.com).
-
-### 6. **Execute na placa:**
+### 5. **Execute na placa:**
    - Após a compilação e com a placa no modo **BOOTSEL**, clique em **Executar** ou **Run** para carregar o programa na placa.
 
 ---
